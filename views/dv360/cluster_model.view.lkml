@@ -1,12 +1,5 @@
-include: "//@{CONFIG_PROJECT_NAME}/views/dv360/clustering_model.view"
-
 view: clustering_dataset {
-  extends: [clustering_dataset_config]
-}
-
-
-view: clustering_dataset_core {
-  extension: required
+  
   derived_table: {
     datagroup_trigger: bqml_datagroup
     explore_source: impression_funnel_dv360 {

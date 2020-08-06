@@ -1,5 +1,3 @@
-include: "//@{CONFIG_PROJECT_NAME}/views/dv360/*"
-
 view: impression_pdt {
   derived_table: {
     datagroup_trigger: new_day
@@ -101,11 +99,7 @@ view: activity_pdt {
 
 
 view: impression_funnel_dv360 {
-  extends: [impression_funnel_dv360_config]
-}
-
-view: impression_funnel_dv360_core {
-  extension: required
+  
   derived_table: {
     datagroup_trigger: new_day
     partition_keys: ["event_time"]

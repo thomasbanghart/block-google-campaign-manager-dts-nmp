@@ -1,13 +1,7 @@
-include: "//@{CONFIG_PROJECT_NAME}/explores/dv360/impression_funnel_dv360.explore"
 
 explore: impression_funnel_dv360 {
-  extends: [impression_funnel_dv360_config]
-}
-
-
-explore: impression_funnel_dv360_core {
   view_name: impression_funnel_dv360
-  extension: required
+  
   view_label: "DV360 Events"
   label: "(2.5) Impression Funnel DV360"
   description: "Use this funnel explore for a more granular view at cost and impression metrics for DV360 campaigns"

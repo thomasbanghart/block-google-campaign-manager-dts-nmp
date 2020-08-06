@@ -1,13 +1,7 @@
-include: "//@{CONFIG_PROJECT_NAME}/views/dv360/*"
-
-view: dynamic_io_rank {
-  extends: [dynamic_io_rank_config]
-}
-
 # If necessary, uncomment the line below to include explore_source.
 # include: "block_dv360_v2.model.lkml"
-view: dynamic_io_rank_core {
-  extension: required
+view: dynamic_io_rank {
+  
   derived_table: {
     explore_source: impression_funnel_dv360 {
       column: dbm_insertion_order_id { field: impression_funnel_dv360.dbm_insertion_order_id }
