@@ -1,8 +1,8 @@
-
+include: "/views/**/*"
 
 explore: click{
   view_name: click
-  
+
   label: "(4) Clicks"
   view_label: "Clicks"
 

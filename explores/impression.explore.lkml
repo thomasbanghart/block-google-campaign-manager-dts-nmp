@@ -1,6 +1,8 @@
+include: "/views/**/*"
+
 explore: impression {
   view_name: impression
-  
+
   label: "(1) Impressions"
   view_label: "Impressions"
 

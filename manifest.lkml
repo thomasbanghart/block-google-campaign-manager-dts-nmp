@@ -1,16 +1,16 @@
 constant: CONNECTION_NAME {
-  value: "your_bq_connection_name"
+  value: "db-platform-sol-cm"
   export: override_required
 }
 constant: PROJECT_NAME {
-  value: "your_bq_project_name"
+  value: "db-platform-sol"
   export: override_optional
 }
 constant: DATASET_NAME {
-  value: "your_bq_campaign_manager_dataset"
+  value: "Comcast8667"
   export: override_optional
 }
 constant: CAMPAIGN_MANAGER_ID {
-  value: "your_campaign_manager_id"
+  value: "8667"
   export: override_optional
 }
