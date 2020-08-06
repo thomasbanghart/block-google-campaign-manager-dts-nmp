@@ -2,7 +2,6 @@ constant: CONNECTION_NAME {
   value: "your_bq_connection_name"
   export: override_required
 }
-
 constant: PROJECT_NAME {
   value: "your_bq_project_name"
   export: override_optional
