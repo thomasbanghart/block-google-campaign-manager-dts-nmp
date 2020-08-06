@@ -1,7 +1,8 @@
+include: "/views/**/*"
 
 explore: impression_funnel {
   view_name: impression_funnel
-  
+
   label: "(2) Impression Funnel"
 
   sql_always_where: TIMESTAMP(${first_ad_impression_date}) > TIMESTAMP(DATE_ADD(CURRENT_DATE, INTERVAL -60 DAY))  ;;

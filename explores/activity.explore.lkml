@@ -1,7 +1,8 @@
+include: "/views/**/*"
 
 explore: activity{
   view_name: activity
-  
+
   label: "(3) Activities"
   view_label: "Activities"
 
