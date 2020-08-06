@@ -1,9 +1,9 @@
 include: "date_comparison.view.lkml"
-include: "/views/dv360/impression_dv360.view"
+
 
 view: impression {
   sql_table_name: `@{PROJECT_NAME}.@{DATASET_NAME}.p_impression_@{CAMPAIGN_MANAGER_ID}` ;;
-  extends: [date_comparison, impression_dv360]
+  extends: [date_comparison]
 
   dimension_group: impression {
     type: time

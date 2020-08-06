@@ -1,9 +1,8 @@
 include: "date_comparison.view"
-include: "/views/dv360/click_dv360.view"
 
 view: click {
   sql_table_name: `@{PROJECT_NAME}.@{DATASET_NAME}.p_click_@{CAMPAIGN_MANAGER_ID}`;;
-  extends: [date_comparison, click_dv360]
+  extends: [date_comparison]
 
 
   dimension_group: click {

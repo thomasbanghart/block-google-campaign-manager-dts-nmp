@@ -1,10 +1,9 @@
 include: "date_comparison.view"
-include: "/views/dv360/activity_dv360.view"
 
 
 view: activity {
   sql_table_name: `@{PROJECT_NAME}.@{DATASET_NAME}.p_activity_@{CAMPAIGN_MANAGER_ID}` ;;
-  extends: [date_comparison, activity_dv360]
+  extends: [date_comparison]
 
   dimension_group: activity {
     type: time

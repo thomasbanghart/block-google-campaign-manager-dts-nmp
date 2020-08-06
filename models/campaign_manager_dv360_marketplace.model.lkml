@@ -23,4 +23,4 @@ datagroup: bqml_datagroup {
 }
 
 
-label: "Block Google Campaign Manager + DV360"
+label: "Block Google Campaign Manager"
